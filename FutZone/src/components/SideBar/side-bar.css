@@ -1,0 +1,43 @@
+.div-side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100px;
+    border-right: 1px solid var(--cinza600);
+    text-align: center;
+    background-color: var(--cinza700);
+}
+
+.sidebar-top {
+    padding-top: 40px;
+}
+
+.sidebar-top h2 {
+    font-weight: 400;
+    color: var(--cinza100);
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.sidebar-top h2 span {
+    color: var(--laranja750);
+}
+
+.sidebar-mid {
+    display: flex;
+    padding-top: 30vh;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.sidebar-mid a {
+    text-decoration: none;
+    color: var(--cinza500);
+    transition: all 0.3s ease;
+}
+
+.sidebar-mid a:hover {
+    color: var(--laranja750);
+}

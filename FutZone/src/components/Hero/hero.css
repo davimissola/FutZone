@@ -1,0 +1,70 @@
+.section-hero {
+    margin-left: 100px;
+    min-height: 100vh;
+    background-color: var(--cinza800);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.hero-coluna1 {
+    padding-top: 100px;
+}
+
+.div-jogo-principal {
+    width: 800px;
+    margin: auto;
+}
+
+.div-jogo-principal img {
+    width: 800px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.div-jogo-principal h2 {
+    color: var(--cinza100);
+}
+
+.div-jogo-principal p {
+    color: var(--cinza400);
+}
+
+.div-todos-jogos {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.div-jogos {
+    width: 500px;
+}
+
+.div-jogos img {
+    width: 500px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.div-jogos h2 {
+    color: var(--cinza100);
+}
+
+.div-jogos p {
+    color: var(--cinza400);
+}
+
+
+
+
+
+
+.hero-coluna2 {
+    padding-top: 100px;
+}
+
+.hero-coluna2 h2 {
+    text-align: center;
+    color: var(--laranja750);
+}
