@@ -14,8 +14,10 @@ export function Home() {
     const [eventsDay, setEventsDay] = useState<typeEventsDay[]>([])
     useEffect(() => {
         async function getEventsDay() {
+            const hoje = new Date().toLocaleDateString('sv-SE')
+            console.log(hoje)
             const resp = await fetch(
-                'https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-09-16&s=soccer'
+                `https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=${hoje}&s=soccer`
             )
             const respJson: apiResponse = await resp.json()
 

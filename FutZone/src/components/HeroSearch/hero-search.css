@@ -1,0 +1,80 @@
+.section-hero-search {
+    background-color: var(--cinza800);
+    height: 100vh;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.form-search {
+    text-align: center;
+}
+
+.form-search div {
+    background-color: var(--cinza700);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.form-search input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    border-radius: 100px;
+    height: 40px;
+    padding-left: 50px;
+    color: var(--cinza200);
+}
+
+.form-search button {
+    background-color: transparent;
+    border: none;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.form-search button svg {
+    color: var(--cinza200);
+}
+
+.div-player {
+    text-align: center;
+    margin: 60px auto 0;
+    width: 500px;
+    padding: 50px 0;
+    border-radius: 20px;
+    background-color: var(--cinza700);
+}
+
+.div-player img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+.div-player h3 {
+    color: var(--cinza100);
+    font-size: 35px;
+}
+
+.div-player div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: var(--cinza300);
+}
+
+.nenhum-jogador {
+    text-align: center;
+    max-width: 500px;
+    color: var(--cinza400);
+    margin: 300px auto 0;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
