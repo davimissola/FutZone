@@ -2,12 +2,25 @@
     margin-left: 100px;
     min-height: 100vh;
     background-color: var(--cinza800);
-    display: grid;
-    grid-template-columns: 2fr 1fr;
 }
 
-.hero-coluna1 {
+.h2-titulo-hero {
+    padding-top: 40px;
+    text-align: center;
+    color: var(--cinza100);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.h2-titulo-hero span {
+    color: var(--laranja750);
+}
+
+.div-hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .div-jogo-principal {
@@ -43,7 +56,8 @@
 
 .div-jogos img {
     width: 500px;
-    height: auto;
+    height: 280px;
+    object-fit: cover;
     border-radius: 40px;
 }
 
@@ -55,16 +69,49 @@
     color: var(--cinza400);
 }
 
-
-
-
-
-
-.hero-coluna2 {
-    padding-top: 100px;
-}
-
 .hero-coluna2 h2 {
     text-align: center;
     color: var(--laranja750);
+}
+
+.tabela-times {
+    width: 450px;
+    margin: 40px auto;
+    padding: 50px 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: var(--cinza700);
+}
+
+.linha-tabela {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha-tabela div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.linha-tabela div img {
+    width: 50px;
+}
+
+.linha-tabela div p {
+    color: var(--cinza100);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.linha-tabela div span {
+    color: var(--cinza100);
+}
+
+.linha-tabela #time-pontos {
+    color: var(--cinza100);
+    font-size: 22px;
 }

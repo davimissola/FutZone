@@ -15,7 +15,7 @@ export function Home() {
     useEffect(() => {
         async function getEventsDay() {
             const resp = await fetch(
-                'https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-09-15&s=soccer'
+                'https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-09-16&s=soccer'
             )
             const respJson: apiResponse = await resp.json()
 
